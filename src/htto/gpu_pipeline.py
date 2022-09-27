@@ -7,6 +7,7 @@ from pathlib import Path
 
 import cupy as cp
 import h5py as h5
+import hdf5plugin
 import numpy as np
 import tomopy
 from larix.methods.misc_gpu import MEDIAN_FILT_GPU

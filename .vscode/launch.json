@@ -5,6 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "HTTO CPU",
+            "type": "python",
+            "request": "launch",
+            "module": "htto",
+            "args": [
+                "--crop",
+                "1",
+                "/dls/tmp/cscs-hackathon-data/1-percent/110809.nxs",
+                "results",
+                "cpu"
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "HTTO GPU",
+            "type": "python",
+            "request": "launch",
+            "module": "htto",
+            "args": [
+                "--crop",
+                "1",
+                "/dls/tmp/cscs-hackathon-data/1-percent/110809.nxs",
+                "results",
+                "gpu"
+            ],
+            "justMyCode": true
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
